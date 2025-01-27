@@ -1,14 +1,81 @@
 <!DOCTYPE html>
 <html lang="en" data-theme="light">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>A+ Studio</title>
     <!-- tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
+    <!-- daisyUI -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
 
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+
+    <!-- adding css  -->
+     <style>
+        .manrofe{
+            font-family: "Manrope", serif;
+        }
+     </style>
 </head>
-<body >
 
+<body class="manrofe">
+    <!-- header  -->
+    <header class="container mx-auto lg:max-w-[90%]">
+        <!-- navber  -->
+        <nav>
+            <div class="navbar bg-base-100">
+                <!-- nav menu for small screen  -->
+                <div class=" flex-1">
+                    <div class="dropdown">
+                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M4 6h16M4 12h8m-8 6h16" />
+                            </svg>
+                        </div>
+                        <ul tabindex="0"
+                            class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                            <li class="cursor-pointer"><a class="font-bold cursor-pointer ">Home</a></li>
+                            <li><a class="font-bold ">What We Do</a></li>
+                            <li><a class="font-bold ">Service</a></li>
+                            <li><a class="font-bold ">Project</a></li>
+                            <li><a class="font-bold ">Blog</a></li>
+                            <li><a class="font-bold ">Contact</a></li>
+                        </ul>
+                    </div>
+
+                        <img src="img/A+ Studio.png" alt="this is our website logo">
+                </div>
+                <!-- nav menu for large screen -->
+                <div class=" hidden lg:flex">
+                    <ul class="menu menu-horizontal px-1">
+                        <li><a class="font-bold cursor-pointer">Home</a></li>
+                        <li><a class="font-bold cursor-pointer">What We Do</a></li>
+                        <li><a class="font-bold cursor-pointer">Service</a></li>
+                        <li><a class="font-bold cursor-pointer">Project</a></li>
+                        <li><a class="font-bold cursor-pointer">Blog</a></li>
+                        <li><a class="font-bold cursor-pointer">Contact</a></li>
+                    </ul>
+                </div>
+
+            </div>
+        </nav>
+    </header>
+    <!-- main section -->
+    <main>
+
+    </main>
+    <!-- footer section -->
+    <footer>
+
+    </footer>
 </body>
+
 </html>
